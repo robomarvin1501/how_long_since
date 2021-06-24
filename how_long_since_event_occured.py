@@ -1,5 +1,5 @@
 import os
-os.chdir("~/how_long_since")
+os.chdir(os.path.expanduser('~') + "/how_long_since")
 
 import sys
 import datetime
